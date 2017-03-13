@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--葡京娱乐-->
+        <!--葡京娱乐场-->
         <scene sceneID="wGD-Fp-bsR">
             <objects>
                 <tableViewController id="b0b-VM-LKg" customClass="MainTableViewController" sceneMemberID="viewController">
@@ -33,7 +33,7 @@
                                 <rect key="frame" x="0.0" y="242" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ENO-5W-S32" id="CSN-kx-g4B">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -43,8 +43,8 @@
                             <outlet property="delegate" destination="b0b-VM-LKg" id="64t-jb-PAT"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="葡京娱乐" id="VeY-EM-1kF">
-                        <barButtonItem key="backBarButtonItem" title="葡京娱乐" id="GtC-Dr-9HV"/>
+                    <navigationItem key="navigationItem" title="葡京娱乐场" id="VeY-EM-1kF">
+                        <barButtonItem key="backBarButtonItem" title="葡京娱乐场" id="GtC-Dr-9HV"/>
                     </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uME-VW-3zW" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -54,7 +54,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="34" y="73"/>
+            <point key="canvasLocation" x="-105" y="72"/>
         </scene>
         <!--Detail Table View Controller-->
         <scene sceneID="dCp-ep-Jmj">
@@ -69,7 +69,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fZf-wM-i55" id="qzC-qY-ObY">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -136,7 +136,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="mRi-Cs-GtI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1014" y="62"/>
+            <point key="canvasLocation" x="932" y="62"/>
         </scene>
     </scenes>
     <resources>

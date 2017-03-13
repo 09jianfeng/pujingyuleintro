@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "DetailViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    DetailViewController *detailView = [DetailViewController new];
+    if ([detailView showArticle]) {
+        _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+        _window.rootViewController = detailView;
+        [_window makeKeyAndVisible];
+    }
+    
     return YES;
 }
 

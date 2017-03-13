@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		783309A41E6CFB9C00B2D2D6 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7833099C1E6CFB9C00B2D2D6 /* LaunchImage-700-568h@2x.png */; };
+		783309A51E6CFB9C00B2D2D6 /* LaunchImage-700-Portrait~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 7833099D1E6CFB9C00B2D2D6 /* LaunchImage-700-Portrait~ipad.png */; };
+		783309A61E6CFB9C00B2D2D6 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7833099E1E6CFB9C00B2D2D6 /* LaunchImage-700@2x.png */; };
+		783309A71E6CFB9C00B2D2D6 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7833099F1E6CFB9C00B2D2D6 /* LaunchImage-800-667h@2x.png */; };
+		783309A81E6CFB9C00B2D2D6 /* LaunchImage-800-Landscape-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 783309A01E6CFB9C00B2D2D6 /* LaunchImage-800-Landscape-736h@3x.png */; };
+		783309A91E6CFB9C00B2D2D6 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 783309A11E6CFB9C00B2D2D6 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		783309AA1E6CFB9C00B2D2D6 /* LaunchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 783309A21E6CFB9C00B2D2D6 /* LaunchImage.png */; };
+		783309AB1E6CFB9C00B2D2D6 /* LaunchImage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 783309A31E6CFB9C00B2D2D6 /* LaunchImage@2x.png */; };
 		7836EB771E69497800D7F96B /* LaunchImage-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7836EB761E69497800D7F96B /* LaunchImage-568h@2x.png */; };
+		7873AFAC1E7012A10089282C /* XMLDataAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873AFAB1E7012A10089282C /* XMLDataAnalysis.m */; };
+		7873AFAE1E7012C60089282C /* zucaizixun in Resources */ = {isa = PBXBuildFile; fileRef = 7873AFAD1E7012C60089282C /* zucaizixun */; };
+		7873AFB11E7019850089282C /* BallLotteryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7873AFB01E7019850089282C /* BallLotteryViewController.m */; };
+		7873AFB31E702C9F0089282C /* btn_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 7873AFB21E702C9F0089282C /* btn_back.png */; };
 		78D48DFE1E6279C3005E95BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48DFD1E6279C3005E95BB /* main.m */; };
 		78D48E011E6279C3005E95BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48E001E6279C3005E95BB /* AppDelegate.m */; };
 		78D48E071E6279C3005E95BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78D48E051E6279C3005E95BB /* Main.storyboard */; };
@@ -21,14 +33,27 @@
 		78D48E211E627E10005E95BB /* MainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48E201E627E10005E95BB /* MainTableViewController.m */; };
 		78D48E241E62841C005E95BB /* DetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48E231E62841C005E95BB /* DetailTableViewController.m */; };
 		78D48E271E628690005E95BB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48E261E628690005E95BB /* DetailViewController.m */; };
-		78D48E2B1E628814005E95BB /* XMLDataAnalysis.m in Sources */ = {isa = PBXBuildFile; fileRef = 78D48E2A1E628814005E95BB /* XMLDataAnalysis.m */; };
 		C84DC5AE629F5EED6409CA4C /* libPods-yule-pujingyuleintro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 346D45AF67AD2BD92A00F7AE /* libPods-yule-pujingyuleintro.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		010558ACADDE421559439371 /* Pods-yule-pujingyuleintro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yule-pujingyuleintro.release.xcconfig"; path = "Pods/Target Support Files/Pods-yule-pujingyuleintro/Pods-yule-pujingyuleintro.release.xcconfig"; sourceTree = "<group>"; };
 		346D45AF67AD2BD92A00F7AE /* libPods-yule-pujingyuleintro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-yule-pujingyuleintro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7833099C1E6CFB9C00B2D2D6 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-700-568h@2x.png"; path = "pujingyuleintro/img/LaunchImage-700-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7833099D1E6CFB9C00B2D2D6 /* LaunchImage-700-Portrait~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-700-Portrait~ipad.png"; path = "pujingyuleintro/img/LaunchImage-700-Portrait~ipad.png"; sourceTree = SOURCE_ROOT; };
+		7833099E1E6CFB9C00B2D2D6 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-700@2x.png"; path = "pujingyuleintro/img/LaunchImage-700@2x.png"; sourceTree = SOURCE_ROOT; };
+		7833099F1E6CFB9C00B2D2D6 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-800-667h@2x.png"; path = "pujingyuleintro/img/LaunchImage-800-667h@2x.png"; sourceTree = SOURCE_ROOT; };
+		783309A01E6CFB9C00B2D2D6 /* LaunchImage-800-Landscape-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-800-Landscape-736h@3x.png"; path = "pujingyuleintro/img/LaunchImage-800-Landscape-736h@3x.png"; sourceTree = SOURCE_ROOT; };
+		783309A11E6CFB9C00B2D2D6 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-800-Portrait-736h@3x.png"; path = "pujingyuleintro/img/LaunchImage-800-Portrait-736h@3x.png"; sourceTree = SOURCE_ROOT; };
+		783309A21E6CFB9C00B2D2D6 /* LaunchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = LaunchImage.png; path = pujingyuleintro/img/LaunchImage.png; sourceTree = SOURCE_ROOT; };
+		783309A31E6CFB9C00B2D2D6 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage@2x.png"; path = "pujingyuleintro/img/LaunchImage@2x.png"; sourceTree = SOURCE_ROOT; };
 		7836EB761E69497800D7F96B /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-568h@2x.png"; path = "pujingyuleintro/img/LaunchImage-568h@2x.png"; sourceTree = SOURCE_ROOT; };
+		7873AFAA1E7012A10089282C /* XMLDataAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDataAnalysis.h; sourceTree = "<group>"; };
+		7873AFAB1E7012A10089282C /* XMLDataAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDataAnalysis.m; sourceTree = "<group>"; };
+		7873AFAD1E7012C60089282C /* zucaizixun */ = {isa = PBXFileReference; lastKnownFileType = folder; path = zucaizixun; sourceTree = SOURCE_ROOT; };
+		7873AFAF1E7019850089282C /* BallLotteryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BallLotteryViewController.h; sourceTree = "<group>"; };
+		7873AFB01E7019850089282C /* BallLotteryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BallLotteryViewController.m; sourceTree = "<group>"; };
+		7873AFB21E702C9F0089282C /* btn_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_back.png; sourceTree = "<group>"; };
 		78D48DF91E6279C3005E95BB /* pujingyuleintro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pujingyuleintro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78D48DFD1E6279C3005E95BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		78D48DFF1E6279C3005E95BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -48,8 +73,6 @@
 		78D48E231E62841C005E95BB /* DetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewController.m; sourceTree = "<group>"; };
 		78D48E251E628690005E95BB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		78D48E261E628690005E95BB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
-		78D48E291E628814005E95BB /* XMLDataAnalysis.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMLDataAnalysis.h; sourceTree = "<group>"; };
-		78D48E2A1E628814005E95BB /* XMLDataAnalysis.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMLDataAnalysis.m; sourceTree = "<group>"; };
 		DE422CF20A6EA904E01302A8 /* Pods-yule-pujingyuleintro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-yule-pujingyuleintro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-yule-pujingyuleintro/Pods-yule-pujingyuleintro.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -74,6 +97,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		7873AFA91E7012940089282C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7873AFAA1E7012A10089282C /* XMLDataAnalysis.h */,
+				7873AFAB1E7012A10089282C /* XMLDataAnalysis.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		78D48DF01E6279C3005E95BB = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +127,8 @@
 		78D48DFB1E6279C3005E95BB /* pujingyuleintro */ = {
 			isa = PBXGroup;
 			children = (
-				78D48E281E6287DB005E95BB /* Model */,
+				7873AFAD1E7012C60089282C /* zucaizixun */,
+				7873AFA91E7012940089282C /* Model */,
 				78D48E1E1E627DDB005E95BB /* Controller */,
 				78D48DFF1E6279C3005E95BB /* AppDelegate.h */,
 				78D48E001E6279C3005E95BB /* AppDelegate.m */,
@@ -120,6 +153,15 @@
 		78D48E131E627A26005E95BB /* su */ = {
 			isa = PBXGroup;
 			children = (
+				7873AFB21E702C9F0089282C /* btn_back.png */,
+				7833099C1E6CFB9C00B2D2D6 /* LaunchImage-700-568h@2x.png */,
+				7833099D1E6CFB9C00B2D2D6 /* LaunchImage-700-Portrait~ipad.png */,
+				7833099E1E6CFB9C00B2D2D6 /* LaunchImage-700@2x.png */,
+				7833099F1E6CFB9C00B2D2D6 /* LaunchImage-800-667h@2x.png */,
+				783309A01E6CFB9C00B2D2D6 /* LaunchImage-800-Landscape-736h@3x.png */,
+				783309A11E6CFB9C00B2D2D6 /* LaunchImage-800-Portrait-736h@3x.png */,
+				783309A21E6CFB9C00B2D2D6 /* LaunchImage.png */,
+				783309A31E6CFB9C00B2D2D6 /* LaunchImage@2x.png */,
 				7836EB761E69497800D7F96B /* LaunchImage-568h@2x.png */,
 				78D48E141E627A26005E95BB /* ambc.xml */,
 				78D48E151E627A26005E95BB /* cpzx.xml */,
@@ -133,6 +175,8 @@
 		78D48E1E1E627DDB005E95BB /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				7873AFAF1E7019850089282C /* BallLotteryViewController.h */,
+				7873AFB01E7019850089282C /* BallLotteryViewController.m */,
 				78D48E1F1E627E10005E95BB /* MainTableViewController.h */,
 				78D48E201E627E10005E95BB /* MainTableViewController.m */,
 				78D48E221E62841C005E95BB /* DetailTableViewController.h */,
@@ -141,15 +185,6 @@
 				78D48E261E628690005E95BB /* DetailViewController.m */,
 			);
 			name = Controller;
-			sourceTree = "<group>";
-		};
-		78D48E281E6287DB005E95BB /* Model */ = {
-			isa = PBXGroup;
-			children = (
-				78D48E291E628814005E95BB /* XMLDataAnalysis.h */,
-				78D48E2A1E628814005E95BB /* XMLDataAnalysis.m */,
-			);
-			name = Model;
 			sourceTree = "<group>";
 		};
 		8F84EDE187A31E1033DEA00A /* Frameworks */ = {
@@ -222,15 +257,25 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				783309AA1E6CFB9C00B2D2D6 /* LaunchImage.png in Resources */,
 				78D48E0C1E6279C3005E95BB /* LaunchScreen.storyboard in Resources */,
+				7873AFAE1E7012C60089282C /* zucaizixun in Resources */,
 				78D48E1A1E627A26005E95BB /* cpzx.xml in Resources */,
+				783309A71E6CFB9C00B2D2D6 /* LaunchImage-800-667h@2x.png in Resources */,
 				78D48E091E6279C3005E95BB /* Assets.xcassets in Resources */,
 				78D48E1C1E627A26005E95BB /* qpyx.xml in Resources */,
+				783309A51E6CFB9C00B2D2D6 /* LaunchImage-700-Portrait~ipad.png in Resources */,
 				78D48E1B1E627A26005E95BB /* pj1.png in Resources */,
 				78D48E191E627A26005E95BB /* ambc.xml in Resources */,
+				783309A41E6CFB9C00B2D2D6 /* LaunchImage-700-568h@2x.png in Resources */,
 				78D48E1D1E627A26005E95BB /* zqyc.xml in Resources */,
+				783309A61E6CFB9C00B2D2D6 /* LaunchImage-700@2x.png in Resources */,
+				783309AB1E6CFB9C00B2D2D6 /* LaunchImage@2x.png in Resources */,
 				7836EB771E69497800D7F96B /* LaunchImage-568h@2x.png in Resources */,
 				78D48E071E6279C3005E95BB /* Main.storyboard in Resources */,
+				783309A91E6CFB9C00B2D2D6 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+				7873AFB31E702C9F0089282C /* btn_back.png in Resources */,
+				783309A81E6CFB9C00B2D2D6 /* LaunchImage-800-Landscape-736h@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,10 +334,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7873AFB11E7019850089282C /* BallLotteryViewController.m in Sources */,
 				78D48E271E628690005E95BB /* DetailViewController.m in Sources */,
 				78D48E241E62841C005E95BB /* DetailTableViewController.m in Sources */,
 				78D48E211E627E10005E95BB /* MainTableViewController.m in Sources */,
-				78D48E2B1E628814005E95BB /* XMLDataAnalysis.m in Sources */,
+				7873AFAC1E7012A10089282C /* XMLDataAnalysis.m in Sources */,
 				78D48E011E6279C3005E95BB /* AppDelegate.m in Sources */,
 				78D48DFE1E6279C3005E95BB /* main.m in Sources */,
 			);
@@ -415,7 +461,7 @@
 			baseConfigurationReference = DE422CF20A6EA904E01302A8 /* Pods-yule-pujingyuleintro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3M3KGDMP2K;
 				INFOPLIST_FILE = pujingyuleintro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -430,7 +476,7 @@
 			baseConfigurationReference = 010558ACADDE421559439371 /* Pods-yule-pujingyuleintro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "LaunchImage-2";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = 3M3KGDMP2K;
 				INFOPLIST_FILE = pujingyuleintro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

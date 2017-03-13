@@ -1,0 +1,29 @@
+/* CSS Document */
+ul , ol ,h1, h2 , h3 , h4, h5 , p , dl , dt , dd , form { padding: 0; margin: 0; }
+img { border: none;}
+.clear{zoom:1;clear: both;}
+a,a:hover{text-decoration:none;}
+html {font-size: 100px;}
+body {font-size: 0.14rem;padding:0.14rem;font-family:microsoft yahei;margin:0;background: url("http://public.zgzcw.com/d/images/20156261435289725756_721.png");}
+
+.ttwd {font-size:0.14rem; background: #fff;border-radius: 0.02rem;}
+.ttwd li {background: #409aa2;color: #fff;    padding: 0.1rem;}
+.ttwd .wdbt {border-left: 4px solid #409aa2;font-weight: bold; padding-left: 0.1rem;  padding: 0.1rem;}
+.ttwd .wdfx {padding: 0.1rem;border-top: 1px dotted #666;}
+.ttwd .wdfx .wdpl {background: #0f5980;border-radius: 10%; margin-right: 0.1rem;color: #fff;display: block;max-width:60px;max-height: 42px;float: left;text-align: center;}
+.ttwd .wdfx .wddz {color:#9d9d9d;float: left;}
+.ttwd .wdfx .wdsl {float: right;background: #f55500;border-radius: 50%;color: #fff;padding: 0.02rem;position: relative;top: -0.04rem;}
+.ttwd .wdly {color: #252525;font-size: 0.12rem;padding: 0.1rem;}
+
+.ttcg {font-size:0.14rem; background: #fff;border-radius: 0.02rem;}
+.ttcg li {background: #168fc6;color: #fff;padding: 0.1rem;}
+.ttcg .cgbt {border-left: 4px solid #409aa2;font-weight: bold; padding-left: 0.1rem;  padding: 0.1rem;}
+.ttcg table {border: solid 1px #ddd;text-align: center;font-size: 0.10rem;width: 100%;}
+.ttcg table tr { height: 0.3rem;}
+.ttcg table tr td {border: 1px solid #ddd;}
+
+.hall_topbar{ height: 0.45rem; line-height: 0.45rem; text-align:center; background:#2c9195; font-size: 0.17rem;position:fixed; width:100%; top:0px; left:0px; z-index: 1000; color:#fff;}
+.szc_topbar a.goback{position:absolute; left:0px; background-size:12px; width: 0.1rem; height: 0.4rem; left: 0; padding: 0 0.1rem;color: #fff;}
+.bjwin {width: 30px;height: 30px;background: url("http://public.zgzcw.com/d/images/20169211474438633246_721.gif");position: absolute;right: 25px;}
+
+.footer{ padding:0.1rem 0; line-height:0.2rem; text-align:center;    background: #fff;margin-top: 0.1rem;}

@@ -7,6 +7,7 @@ source 'https://github.com/CocoaPods/Specs.git'
 def commonpod()
     pod 'MBProgressHUD', '~> 0.8'
     pod 'GDataXML-HTML', '~> 1.3.0'
+    pod 'Masonry', '1.0.2'
 end
 
 abstract_target 'yule' do

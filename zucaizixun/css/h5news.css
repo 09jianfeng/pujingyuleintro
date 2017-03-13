@@ -1,0 +1,213 @@
+@charset "utf-8";
+/* CSS Document */
+input  { -webkit-appearance: none;  
+}
+input[type="submit"], input[type="reset"], input[type="button"], input { -webkit-appearance: none; }
+ @media screen and (min-width:320px) {
+html, body, button, input, select, textarea { font-size: 12px }
+}
+ @media screen and (min-width:375px) {
+html, body, button, input, select, textarea { font-size: 14px }
+}
+ @media screen and (min-width:414px) {
+html, body, button, input, select, textarea { font-size: 16px }
+}
+ @media screen and (min-width:450px) {
+html, body, button, input, select, textarea { font-size: 18px }
+}
+ @media screen and (min-width:480px) {
+html, body, button, input, select, textarea { font-size: 18px }
+}
+ @media screen and (min-width:540px) {
+html, body, button, input, select, textarea { font-size: 20.25px }
+}
+ @media screen and (min-width:600px) {
+html, body, button, input, select, textarea { font-size: 22px }
+}
+ @media screen and (min-width:640px) {
+html, body, button, input, select, textarea { font-size: 24px }
+}
+ @media screen and (min-width:720px) {
+html, body, button, input, select, textarea { font-size: 28px }
+}
+ @media screen and (min-width:800px) {
+html, body, button, input, select, textarea { font-size: 30px }
+}
+ @media screen and (min-width:880px) {
+html, body, button, input, select, textarea { font-size: 34px }
+}
+ @media screen and (min-width:960px) {
+html, body, button, input, select, textarea { font-size: 36px }
+}
+/**/
+
+
+* { margin: 0; padding: 0 }
+ul, li { list-style: none }
+body { background: #ededed; color: #474747; font-size: 1.1rem; }
+em, i { font-style: normal }
+a, a:link { color: #474747; text-decoration: none }
+.fontfff a, .fontfff a:link { color: #fff; text-decoration: none }
+.fontgrey { color: #808080 }
+header { background: #19285A; width: 100%; height: 4rem; line-height: 4rem; text-align: center; color: #fff; }
+h1 { font-size: 1.5rem; }
+h2 { font-weight: normal }
+.clear { clear: both }
+.return { display: block; width: 2rem; height: 4rem; position: absolute; left: 1rem; top: 0rem }
+.return img { width: 0.8rem; height: 1.25rem; margin-top: 1.3rem }
+.zmember { width: 3rem; height: 4rem; position: absolute; right: 0.4rem; top: 0 }
+.zmember img { width: 2.4rem; height: 2.4rem; margin-top: 0.9rem; }
+nav { height: 3.4rem; padding: 0 1rem; background: #fff; position: relative }
+nav li { float: left; width: 15%; margin-right: 1rem; text-align: center; line-height: 3.4rem }
+nav li.cur { color: #19285A; background: url("../../h5/images/navcur.jpg") no-repeat bottom center/90% 5px }
+nav a, nav a:link { color: #757575; }
+.navmore { float: right; padding: 0; width: 2rem; margin: 0; padding-left: 0.5rem; position: absolute; top: 0; right: 0; cursor: pointer; height: 3.4rem }
+.navmore img { width: 1.3rem; height: 1rem; margin-top: 1.2rem }
+.navmore_cont { width: 100%; height: auto; position: absolute; left: 0; top: 3.4rem; border-top: 1px solid #cacaca; border-bottom: 1px solid #19285A; background: #f2f2f2; z-index: 10; }
+.navmore_cont .bt { display: block; height: 2.8rem; line-height: 2.8rem; font-weight: normal; text-indent: 1rem; }
+.navmore_cont .jiao { position: absolute; right: 1rem; top: -0.6rem; display: inline-block; width: 0.83rem; height: 0.6rem; line-height: 0.55rem; overflow: hidden }
+.navmore_cont .jiao img { width: 0.83rem; height: 0.6rem; }
+.more_span { background: #e4e4e4; padding: 1rem 1rem 0 1rem; height: 7rem; display: block; padding-top: 0.83rem; }
+.more_span span { display: inline-block; background: #f9f9f9; border: #999 1px solid; border-radius: 4px; width: 5.3rem; height: 2.4rem; line-height: 2.4rem; text-align: center; margin-right: 0.86rem; margin-bottom: 1rem; float: left; }
+@media screen and (min-width:414px) {
+.more_span span { margin-right: 0.72rem }
+}
+.more_span span:nth-child(4), .more_span span:nth-child(8) { margin-right: 0 }
+.more_span span.cur { background: #19285A; border: 1px solid #19285A; }
+.more_span span.cur a { color: #fff; }
+.shouqi { width: 100%; height: 3rem; line-height: 3rem; text-align: center; background: #fff; display: block; color: #19285A }
+.shouqi img { width: 1.1rem; margin-right: 0.5rem; }
+.navmore_block { width: 100%; position: absolute; top: 0; left: 0; z-index: 9; display: none }
+.op_bg { background: #000; position: fixed; top: 7.4rem; left: 0; width: 100vw; height: 100vh; z-index: -1; opacity: 0.5; }
+.broadcast { background: #fff6e1; height: 2.7rem; padding: 0 1rem; line-height: 2.7rem; overflow: hidden; color: #666; font-size: 1rem }
+.broadcast img { height: 1.3rem; margin: 0.7rem 0.5rem 0 0; float: left }
+.choose_sc { width: 100%; height: 7.6rem; background: #fff; border-bottom: 1px solid #cbcbcb }
+.choose_sc li { width: 33%; height: 5rem; padding: 1.3rem 0; float: left; text-align: center; border-right: 1px solid #cbcbcb }
+.choose_sc li:last-child { border-right: 0 }
+.choose_sc em { display: block; padding-top: 0.2rem }
+.choose_sc img { width: 3.4rem; height: 3.4rem; }
+.newslist { border-top: 1px solid #cacaca; margin-top: 0.83rem; }
+.newsh2bt { height: 3.5rem; line-height: 3.5rem; color: #19285A; border-bottom: 1px solid #19285A; padding: 0 1rem; background: #fff; font-size: 1.6rem; position: relative }
+.newsh2bt em { font-size: 1rem; color: #808080; display: inline-block; float: left; padding-left: 1rem; }
+.newsh2bt b { float: left; font-weight: normal; text-indent: 0.8rem; }
+.newsh2_left { width: 0.33rem; height: 1.4rem; background: #19285A; position: absolute; left: 1rem; top: 50%; margin-top: -0.7rem; display: block }
+.news1 { height: 6rem; background: #fff; padding: 1rem; position: relative; border-bottom: 1px solid #cacaca; margin-bottom: 0.6rem }
+.news1_img { width: 32.6%; height: 6em; float: right; }
+.news1_img img { width: 100%; height: 6rem }
+.news1_left { position: absolute; right: 34%; left: 1rem }
+.news_txt { width: 100%; max-height: 3.6rem; line-height: 1.8rem; margin: 0.2rem 0; font-size: 1.2rem; overflow: hidden; }
+.news1_time em { padding-right: 1rem; color: #808080 }
+.news2 { height: 5.35rem; background: #fff; padding: 1rem; position: relative; border-bottom: 1px solid #cacaca; margin-bottom: 0.6rem }
+.news3 { height: auto; background: #fff; padding: 1rem; position: relative; border-bottom: 1px solid #cacaca; margin-bottom: 0.6rem }
+.news3_img { position: relative; height: 6rem; margin-bottom: 1rem }
+.news3_img li { width: 32.6%; height: 6rem; float: left; margin-right: 1% }
+/*.news3_img li:first-child{ float:left}
+.news3_img li:nth-child(2){ margin:0 auto; position:absolute; left:50%; margin-left:-3.6rem}
+*/.news3_img li:last-child { margin-right: 0 }
+.news3_img img { width: 100%; height: 6rem }
+.news_more { border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca; background: #fff; width: 100%; height: 2rem; line-height: 2rem; text-align: center; padding: 0.5rem 0; color: #808080 }
+.news_more img { width: 1rem; height: 1rem; position: absolute; left: -1.5rem; top: 0.5rem }
+.news_more em { display: inline-block; margin: 0 auto; height: 20px; position: relative }
+.gg, .gg img { width: 100%; height: auto; display: block }
+.tuig { height: 1.6rem; line-height: 1.6rem; padding: 0.8rem 1rem; overflow: hidden; margin-bottom: 0.8rem; background: #fff; border-bottom: 1px solid #cacaca; position: relative; }
+.tuig em { display: inline-block; border: 1px solid #1891d5; color: #1891d5; border-radius: 0.5rem; padding: 0 0.4rem; position: absolute; left: 1rem }
+.tuig b { font-weight: normal; height: 1.6rem; overflow: hidden; display: inline-block; font-size: 1rem; margin-left: 3.4rem }
+/*caizhong*/
+.dlt, .fc3d, .zuqiu { width: auto; height: auto; padding: 0.8rem 1rem; background: #fff; border-bottom: 1px solid #cacaca; }
+.dlt-bt { height: 2.8rem; line-height: 2.8rem; }
+.caizh3 { display: inline-block; float: left; font-weight: normal; height: 2.8rem; line-height: 2.8rem; }
+.dlt p { display: inline-table; font-size: 1rem; font-weight: normal; padding-left: 0.5rem; float: left }
+.dlt_qi { color: #f0460e }
+.dlt_ball { position: relative; width: 100%; height: 2rem; padding: 0.5rem 0 }
+.dlt_hball { display: inline-block; width: auto; height: 2.1rem; margin-left: 4.0rem }
+.dlt_hball em { display: inline-block; width: 2rem; height: 2rem; text-align: center; line-height: 2rem; color: #fff; border-radius: 50%; margin-left: 0.2rem; float: left }
+.dlt_qq, .dlt_hq { display: inline-block; text-indent: 1rem; color: #fff; width: 3.875rem; height: 1.34rem; line-height: 1.34rem; position: absolute; left: 0; top: 0.88rem; }
+.dlt_qq { background: url("http://news.caipiao365.com/news/images/qianqu.png") no-repeat 0 0/100% 100%; }
+.dlt_hq { background: url("http://news.caipiao365.com/news/images/houqu.png") no-repeat 0 0/100% 100%; }
+.hball_color em { background: #fe635a; }
+.lball_color em { background: #4cb9ff; }
+.fc_left { line-height: 3rem; }
+.fcaizh3 { display: block; width: 100%; float: none; height: 3rem; font-weight: normal }
+.fc_left p { display: block; height: 3rem }
+.loading { width: 100%; height: 2.2rem; line-height: 2.2rem; text-align: center; background: #fff; border-bottom: 1px solid #cacaca; border-top: 1px solid #cacaca }
+.loading img { width: 1rem; height: 1rem; margin-right: 0.5rem; }
+.fc3d { }
+.fc_left { width: 50%; float: left }
+.fc-right { width: 50%; float: left }
+.zdui { width: 30%; text-align: center; float: left; padding-right: 3% }
+.kdui { width: 30%; text-align: center; float: left; padding-left: 3% }
+.zdui img, .kdui img { width: 4.6rem; height: 4.6rem; border-radius: 50% }
+.zdui p, .kdui p { height: 2.5rem; line-height: 2.2rem; width: 100%; overflow: hidden }
+.dztime { width: 33%; float: left }
+.dztime b { display: block; text-align: center; }
+.liansai { font-weight: normal; height: 2.3rem; font-size: 1.5rem }
+.lsvs { font-weight: bold; font-weight: bold; height: 2.3rem; font-family: Roboto; font-size: 1.5rem }
+.lstime { color: #808080; font-weight: normal }
+.zq_bifen { border: 1px solid #28c0c6; border-radius: 5px; height: 2.75rem; line-height: 2.75rem }
+.zq_bifen li { float: left; width: 33%; text-align: center; border-right: 1px solid #28c0c6; color: #28c0c6 }
+.zq_bifen li:last-child { border-right: 0 }
+.zq_bifen li.cur { color: #fff; background: #28c0c6 }
+.content { padding: 1rem 0 0 0; margin-bottom: 1rem; background: #fff; }
+.news_bt { font-size: 18px; line-height: 26px; padding: 0 1rem; }
+.cont_lll { padding: 1rem; border-bottom: 1px solid #d9d9d9; color: #808080; font-size: 14px }
+.cont_txt { padding: 1rem; font-size: 16px; line-height: 24px; }
+.cont_txt div img { max-width: 100% }
+.cont_txt b { font-size: 1.2rem; font-weight: normal }
+.like_block { height: 3rem; line-height: 3rem; border-bottom: 1px solid #cacaca; border-top: 1px solid #cacaca; background: url("../../h5/images/line.jpg") no-repeat center center; }
+.likeico { text-align: center; width: 50%; float: left; }
+.likeico em { display: inline-block; background: url("../../h5/images/like.png") no-repeat left center; background-size: 1.4rem auto; text-indent: 2rem }
+.likeico em.plico { background: url("../../h5/images/plico.png") no-repeat left center; background-size: 1.4rem auto; }
+.likeico img { width: 1.2rem; height: 1.1rem; margin-right: 0.5rem; }
+.like_txt { display: inline-block; height: 3rem; width: auto; margin: 0; float: left }
+.share { height: 3rem; line-height: 3rem; padding: 0.9rem 0; border-bottom: 1px solid #cacaca; text-align: center }
+.share img { width: 1.8rem; height: 3rem; margin-right: 0.8rem; margin-top: 0.4rem!important; }/*edit by dingming 0819*/
+.share em { display: inline-block; float: left; font-size: 1.2rem; }
+.share_block { width: 22rem; margin: 0 auto; height: 3rem }
+.pl_block { background: #d7d7d7; padding: 0.8rem 1rem; height: 1.7rem; }
+.pl_input input { width: 12.3rem; height: 2rem; border: 0; border-radius: 5px; padding: 0 0.2rem }
+@media screen and (min-width:414px) {
+.pl_input input { width: 12rem; height: 2rem; border: 0; border-radius: 5px; padding: 0 0.2rem }
+}
+.pl_input { float: left }
+.pl_ico2 { float: left; position: relative }
+.pl_ico2 img { height: 2rem; margin-top: 0.2rem; margin-left: 1rem; }
+.pl_num { width: 1.2rem; height: 1.2rem; display: block; position: absolute; right: -0.5rem; top: -0.5rem; background: #ff5f59; color: #fff; text-align: center; line-height: 1.2rem; border-radius: 50%; }
+.pl_ico3 { float: left; }
+.pl_ico3 img { height: 1.6rem; margin-top: 0.2rem; margin-left: 1rem; }
+.tanmu { border: 1px solid #cacaca; float: right; padding: 0 2rem 0 0.4rem; height: 2rem; line-height: 2rem; margin-left: 1rem; background: #fff url("http://news.caipiao365.com/news/images/tanmu.png") no-repeat 90% center; background-size: 1rem auto }
+.write_pl { display: block; height: 3.5rem; padding: 0 1rem; position: absolute; top: 0; right: 0 }
+.xgpl_block li { height: auto; position: relative }
+.xgpl_block li:last-child .xgpl_cont { border-bottom: 0 }
+.xgpl_left { width: 4rem; height: 4rem; position: absolute; left: 1rem; top: 1rem }
+.xgpl_left img { width: 4rem; height: 4rem; border-radius: 50% }
+.xgpl_cont { margin-left: 6rem; margin-right: 0.2rem; border-bottom: 1px solid #e2e2e2; padding: 1rem 0 }
+.xgpl_cont .name { font-size: 1.4rem; font-weight: normal; height: 2rem; display: block }
+.xgpl_cont .time { color: #808080 }
+.xgpl_cont .msg { padding-top: 0.6rem; line-height: 1.6rem }
+.xgpl_cont .huifu { color: #808080 }
+.pl_more { height: 2.4rem; padding: 0.8rem 0; border-top: 1px solid #e2e2e2; border-bottom: 1px solid #e2e2e2; }
+.pl_more a { display: block; width: 80%; margin: 0 auto; height: 2.4rem; line-height: 2.4rem; background: #28c0c6; color: #fff; text-align: center; border-radius: 0.5rem; }
+.bf_link a { padding: 0 0.5rem; text-align: center; height: 2.6rem; line-height: 2.6rem; display: block; margin: 1rem 0 0 0 }
+.bf_link .bfyc { float: left }
+.bf_link .more { float: right; background: #ef6c18; border-radius: 5px; color: #fff; font-size: 1.2rem }
+/**/
+.pl_tanmu { width: 65vw; height: auto; position: fixed; right: 1rem; top: 15vh }
+.pl_tanmu li { width: 100%; height: 4rem; overflow: hidden; background-color: rgba(215,215,215,0.8); border-radius: 5px; padding: 0.8rem 0; float: left; position: relative; margin-bottom: 0.8rem; }
+.tanmi_img { width: 4rem; height: 4rem; float: left; position: absolute; left: 0.5rem; top: 0.5rem; }
+.tanmi_img img { width: 4rem; height: 4rem; border-radius: 50% }
+.tanmu_txt { float: left; height: 4rem; width: auto; overflow: hidden; margin-left: 5rem; }
+.tanmu_table { display: table; height: 4rem; }
+.tanmu_txt p { display: table-cell; vertical-align: middle; line-height: 2rem }
+.xgpl_zan { position: absolute; right: 1rem; top: 1rem; width: 5rem; height: 1.5rem; line-height: 1.5rem; text-indent: 1.6rem; background: url("http://news.caipiao365.com/news/images/like.png") no-repeat 0 center; background-size: 1.4rem 1.4rem; }
+.plwind_bg { background-color: rgba(0,0,0,0.2); width: 100%; height: 100%; position: fixed; top: 0; bottom: 0; left: 0 }
+.pl_kuang { width: 100%; height: auto; background: #fff; border-top: 1px solid #cacaca; position: absolute; bottom: 0 }
+.pl_kuang_bt { height: 3rem; line-height: 3rem; padding: 0 1rem }
+.pl_kuang_bt .quxiao { float: left; color: #474747 }
+.pl_kuang_bt .fabiao { float: right; color: #1e9bd7 }
+.pl_kuang_cont { padding: 1rem; border-top: 1px solid #cacaca; border-bottom: 1px solid #cacaca }
+.pl_kuang_cont textarea { width: 100%; height: 6rem; line-height: 1.5rem; border: 0 }
+.pageBtn { width: 3rem; height: auto; position: fixed; top: 53vh; right: 1rem; z-index: 10 }
+.pageBtn img { width: 3rem; height: auto; margin-bottom: 1rem; opacity: 0.4; }
+.pageBtn a { display: block }
+.footer { padding: 10px 0; line-height: 24px; text-align: center; font-size: 14px; }
+.content img { max-width: 320px; }
