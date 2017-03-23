@@ -25,6 +25,7 @@
     [self.view addSubview:_webview];
     
     [self.webview loadRequest:[NSURLRequest requestWithURL:url]];
+    _webview.scrollView.bounces = NO;
     
     UIButton *btn = [[UIButton alloc] init];
     [btn setImage:[UIImage imageNamed:@"btn_back"] forState:UIControlStateNormal];

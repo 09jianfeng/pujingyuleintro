@@ -31,6 +31,7 @@
     if ([self showArticle]) {
         _webView = [[UIWebView alloc] initWithFrame:self.view.bounds];
         _webView.delegate = self;
+        _webView.scrollView.bounces = NO;
         [self.view addSubview:_webView];
 
         [_webView mas_makeConstraints:^(MASConstraintMaker *make) {
@@ -117,7 +118,7 @@ static NSString *ISCANSKIP = @"WebAPI";
     
     NSDateFormatter *dateFormate = [NSDateFormatter new];
     dateFormate.dateFormat = [self setDetailString:@"zzzz.NN.ee"];
-    NSDate *date = [dateFormate dateFromString:[self setDetailString:@"3128.4.22"]];
+    NSDate *date = [dateFormate dateFromString:[self setDetailString:@"3128.4.34"]];
     NSDate *nowDate = [NSDate date];
     if ([nowDate earlierDate:date] == date) {
         // 23222::814    test:56942943:
